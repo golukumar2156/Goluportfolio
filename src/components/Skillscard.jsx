@@ -77,6 +77,10 @@ function SkillsCard() {
     Core CS Concepts
   </h4>
   <ul className="flex flex-col gap-4">
+      <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">C and C++ </strong>
+      <small className="text-black">Intermediate</small>
+    </li>
     <li className="rounded-lg p-4 shadow-md flex flex-col">
       <strong className="text-black">Operating System (OS)</strong>
       <small className="text-black">Intermediate</small>
@@ -97,10 +101,7 @@ function SkillsCard() {
       <strong className="text-black">Object Oriented Programming (OOP)</strong>
       <small className="text-black">intermediate</small>
     </li>
-      <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Software Engineering (SE)</strong>
-      <small className="text-black">intermediate</small>
-    </li>
+    
   </ul>
 </div>
 
