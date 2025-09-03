@@ -13,21 +13,36 @@ function Formfill() {
   return (
     <div>
       <section className="pt-50 px-5 xl:ml-4 sm:px-6 lg:px-10 pb-10">
-        <h1 className="text-center text-5xl font-bold text-[#dea725]">Let's Connect</h1>
-        <div className="text-center md:text-xl pt-5 text-[#989c81]">Looking for a dedicated Spring Boot developer ? I’d love to hear about your project and discuss </div>
-           <div className="text-center md:text-xl pb-14 text-[#989c81]">how we can build something great together.</div>
+        <h1 className="text-center text-5xl font-bold text-[#dea725]">
+          Let's Connect
+        </h1>
+        <div className="text-center md:text-xl pt-5 text-[#989c81]">
+          Looking for a dedicated Spring Boot developer ? I’d love to hear about
+          your project and discuss{" "}
+        </div>
+        <div className="text-center md:text-xl pb-14 text-[#989c81]">
+          how we can build something great together.
+        </div>
         <div className="flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0">
           {/* Form Card */}
           <div className="flex-1 flex items-center justify-center">
             <div className="bg-gradient-to-r from-[#498284] to-[#0F766E]   rounded-xl shadow-md w-full max-w-3xl p-6 sm:p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-2 text-bold text-center">Send Me a Message</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-2 text-bold text-center">
+                Send Me a Message
+              </h2>
               <h2 className="text-black  mb-6 text-center">
-                Tell me about your project and I'll get back to you as soon as possible.
+                Tell me about your project and I'll get back to you as soon as
+                possible.
               </h2>
               <form action="#" className="space-y-6">
                 <div className="flex flex-col md:flex-row md:space-x-6">
                   <div className="flex-1 mb-4 md:mb-0">
-                    <label htmlFor="firstName" className="block text-black font-medium mb-1">First Name</label>
+                    <label
+                      htmlFor="firstName"
+                      className="block text-black font-medium mb-1"
+                    >
+                      First Name
+                    </label>
                     <input
                       type="text"
                       id="firstName"
@@ -36,7 +51,12 @@ function Formfill() {
                     />
                   </div>
                   <div className="flex-1">
-                    <label htmlFor="lastName" className="block text-black font-medium mb-1">Last Name</label>
+                    <label
+                      htmlFor="lastName"
+                      className="block text-black font-medium mb-1"
+                    >
+                      Last Name
+                    </label>
                     <input
                       type="text"
                       id="lastName"
@@ -46,7 +66,12 @@ function Formfill() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-black font-medium mb-1">Email Address</label>
+                  <label
+                    htmlFor="email"
+                    className="block text-black font-medium mb-1"
+                  >
+                    Email Address
+                  </label>
                   <input
                     type="email"
                     id="email"
@@ -55,8 +80,12 @@ function Formfill() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="company" className="block text-black font-medium mb-1">
-                    Company/Organization <span className="text-gray-300">(Optional)</span>
+                  <label
+                    htmlFor="company"
+                    className="block text-black font-medium mb-1"
+                  >
+                    Company/Organization{" "}
+                    <span className="text-gray-300">(Optional)</span>
                   </label>
                   <input
                     type="text"
@@ -66,7 +95,12 @@ function Formfill() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="projectType" className="block text-black  font-medium mb-1">Project Type</label>
+                  <label
+                    htmlFor="projectType"
+                    className="block text-black  font-medium mb-1"
+                  >
+                    Project Type
+                  </label>
                   <select
                     id="projectType"
                     className="w-full py-2 px-3 border rounded-lg text-black bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -77,7 +111,12 @@ function Formfill() {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="timeline" className="block text-black font-medium mb-1">Project Timeline</label>
+                  <label
+                    htmlFor="timeline"
+                    className="block text-black font-medium mb-1"
+                  >
+                    Project Timeline
+                  </label>
                   <select
                     id="timeline"
                     className="w-full py-2 px-3 border rounded-lg text-black bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -89,7 +128,12 @@ function Formfill() {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="details" className="block text-black font-medium mb-1">Project Details</label>
+                  <label
+                    htmlFor="details"
+                    className="block text-black font-medium mb-1"
+                  >
+                    Project Details
+                  </label>
                   <textarea
                     id="details"
                     rows={4}
@@ -111,7 +155,9 @@ function Formfill() {
           <div className="flex-1 flex flex-col space-y-5">
             {/* Contact Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65] rounded-xl shadow-md p-6 sm:p-8">
-              <h2 className="text-2xl font-semibold text-black mb-2 text-center">Get In Touch</h2>
+              <h2 className="text-2xl font-semibold text-black mb-2 text-center">
+                Get In Touch
+              </h2>
               <p className="text-black mb-6 text-center">
                 Multiple ways to reach me. Choose what works best for you.
               </p>
@@ -119,33 +165,37 @@ function Formfill() {
                 {/* Example item */}
                 <li className="flex items-start space-x-4">
                   <span className="p-2 text-3xl text-blue-600 rounded-lg flex items-center">
-                  <MdOutlineEmail />
+                    <MdOutlineEmail />
                   </span>
                   <div>
                     <div className="font-semibold text-black">Email</div>
                     <div className="text-black">golusiddharthgs@gmail.com</div>
-                    <div className="text-black text-sm">Best for detailed project discussions</div>
+                    <div className="text-black text-sm">
+                      Best for detailed project discussions
+                    </div>
                   </div>
                 </li>
-                 {/* Example item */}
+                {/* Example item */}
                 <li className="flex items-start space-x-4">
                   <span className="p-2 text-3xl text-blue-600 rounded-lg flex items-center">
-                  <FaWhatsapp />
+                    <FaWhatsapp />
                   </span>
                   <div>
                     <div className="font-semibold text-black">WhatApp</div>
                     <div className="text-black">8434432268</div>
                   </div>
                 </li>
-                 {/* Example item */}
+                {/* Example item */}
                 <li className="flex items-start space-x-4">
                   <span className="p-2 text-3xl text-blue-600 rounded-lg flex items-center">
-                  <CiLocationOn />
+                    <CiLocationOn />
                   </span>
                   <div>
                     <div className="font-semibold text-black">Location</div>
                     <div className="text-black">India</div>
-                    <div className="text-black text-sm">Best for detailed project discussions</div>
+                    <div className="text-black text-sm">
+                      Best for detailed project discussions
+                    </div>
                   </div>
                 </li>
                 {/* Add other contact items similarly */}
@@ -154,34 +204,68 @@ function Formfill() {
 
             {/* Social Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65]  shadow-md rounded-xl p-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-              <h2 className="text-lg font-semibold text-black">Connect on Social Media</h2>
+              <h2 className="text-lg font-semibold text-black">
+                Connect on Social Media
+              </h2>
               <div className="flex space-x-6 text-black">
-                
-<a href="#" className="flex items-center hover:text-blue-600 transition-colors text-black gap-2"> <FaGithub />GitHub</a>
-                 <a href="#" className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"><CiLinkedin />LinkedIn</a>
-                <a href="#" className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"><FaXTwitter /> twitter</a>
+                <a
+                  href="https://github.com/golukumar2156"
+                  className="flex items-center hover:text-blue-600 transition-colors text-black gap-2"
+                  target="_blank"
+                >
+                  {" "}
+                  <FaGithub />
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/golukumar2555/"
+                  className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"
+                  target="_blank"
+                >
+                  <CiLinkedin />
+                  LinkedIn
+                </a>
+                <a
+                  href="https://x.com/GoluKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=09"
+                  className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"
+                  target="_blank"
+                >
+                  <FaXTwitter /> twitter
+                </a>
               </div>
             </div>
 
             {/* FAQ Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65]  shadow-lg rounded-xl p-6 space-y-6">
-              <h2 className="text-lg font-semibold text-black text-center">Frequently Asked Questions</h2>
+              <h2 className="text-lg font-semibold text-black text-center">
+                Frequently Asked Questions
+              </h2>
               <div>
-                <h3 className="font-medium text-black">What technologies do you work with?</h3>
+                <h3 className="font-medium text-black">
+                  What technologies do you work with?
+                </h3>
                 <p className="text-black mt-1">
-                  I specialize in Java, Spring Boot, MySQL, and React.js. I'm also familiar with REST APIs, and modern development practices.
+                  I specialize in Java, Spring Boot, MySQL, and React.js. I'm
+                  also familiar with REST APIs, and modern development
+                  practices.
                 </p>
               </div>
               <div>
-                <h3 className="font-medium text-black">Are you available for freelance work?</h3>
+                <h3 className="font-medium text-black">
+                  Are you available for freelance work?
+                </h3>
                 <p className="text-black mt-1">
-                  Yes! I'm open to freelance projects, part-time opportunities, and full-time positions.
+                  Yes! I'm open to freelance projects, part-time opportunities,
+                  and full-time positions.
                 </p>
               </div>
               <div>
-                <h3 className="font-medium text-black">Do you provide ongoing support?</h3>
+                <h3 className="font-medium text-black">
+                  Do you provide ongoing support?
+                </h3>
                 <p className="text-black mt-1">
-                  I offer post-development support, bug fixes, and feature enhancements.
+                  I offer post-development support, bug fixes, and feature
+                  enhancements.
                 </p>
               </div>
             </div>
