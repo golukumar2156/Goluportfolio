@@ -3,6 +3,7 @@ import imgpath from "../images/tiktak.jpg";
 import imgpathe from "../images/github.png";
 import imgpathes from "../images/currency.webp";
 import imgpathess from "../images/rock.jpeg";
+import imgpathese from "../images/garb.png";
 function Projects() {
   return (
     <div className="md:pt-50 pt-40 px-4 pb-10">
@@ -20,6 +21,43 @@ function Projects() {
 
       {/* Responsive   */}
       <div className="grid grid-cols-1 px-3 xl:pl-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-20">
+        {/* first card */}
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+          <div className="relative">
+            <img
+              src={imgpathese}
+              alt="images_project"
+              className="w-full h-50 block object-cover hover:scale-95 duration-700"
+            />
+            <span className="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded">
+              Featured
+            </span>
+          </div>
+          <div className="p-6">
+            <p className="text-sm text-gray-500 uppercase mb-2">
+              Web Development
+            </p>
+            <h3 className="text-2xl font-semibold text-green-600 mb-2">
+              Civic Sense
+            </h3>
+            <p className="text-gray-700 mb-4">
+              This UI prototype is for visual presentation and design showcase.
+              It demonstrates layout and responsiveness with no backend, and
+              highlights UI/UX skills by previewing the final product.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                React_js
+              </span>
+            </div>
+            <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
+              <a href="https://newcity-git-main-golusiddharth88-2687s-projects.vercel.app/" target="_blank">
+                view
+              </a>
+            </button>
+          </div>
+        </div>
+
         {/* first card */}
         <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
@@ -97,7 +135,12 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              <a href="https://golukumar2156.github.io/githubdetails/"  target="_blank">view</a>
+              <a
+                href="https://golukumar2156.github.io/githubdetails/"
+                target="_blank"
+              >
+                view
+              </a>
             </button>
           </div>
         </div>
@@ -138,7 +181,12 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              <a href="https://golukumar2156.github.io/currecy_App/"  target="_blank">view</a>
+              <a
+                href="https://golukumar2156.github.io/currecy_App/"
+                target="_blank"
+              >
+                view
+              </a>
             </button>
           </div>
         </div>
@@ -160,7 +208,7 @@ function Projects() {
               Web Development
             </p>
             <h3 className="text-2xl font-semibold text-green-600 mb-2">
-               Rock-Paper-Scissors Game! 
+              Rock-Paper-Scissors Game!
             </h3>
             <p className="text-gray-700 mb-4">
               Interactive design with hover effects. Real-time score tracking
@@ -179,7 +227,9 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-             <a href="https://golukumar2156.github.io/game/" target="_blank">view</a>
+              <a href="https://golukumar2156.github.io/game/" target="_blank">
+                view
+              </a>
             </button>
           </div>
         </div>
@@ -189,3 +239,4 @@ function Projects() {
 }
 
 export default Projects;
+// https://golukumar2156.github.io/
