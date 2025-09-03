@@ -41,13 +41,13 @@ function MidText() {
 
         {/* Social Icons */}
         <div className="flex justify-center xl:ml-25 md:justify-start space-x-8 text-4xl  text-gray-200">
-          <a href="#" aria-label="GitHub">
+          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="GitHub">
             <FaGithub className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="LinkedIn">
             <CiLinkedin className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="#" aria-label="Email">
+          <a href="golusiddharthgs@gmail.com" aria-label="Email">
             <MdOutlineMailOutline className="hover:text-green-600 transition duration-300" />
           </a>
         </div>
