@@ -226,7 +226,7 @@ function Formfill() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://x.com/GoluKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=09"
+                  href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0"
                   className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"
                   target="_blank"
                 >

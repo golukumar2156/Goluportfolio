@@ -4,9 +4,8 @@ import resume from "../download/My_resume.pdf";
 import { IoIosCodeDownload } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-import { MdOutlineMailOutline } from "react-icons/md";
 import { useLocation } from "react-router-dom";
-
+import { FaSquareXTwitter } from "react-icons/fa6";
 function Introduction() {
   const location=useLocation();
   if(location.pathname === "/") return null;
@@ -60,14 +59,14 @@ function Introduction() {
 
         {/* Social Links */}
         <div className="flex justify-center md:justify-start space-x-12 text-4xl text-white">
-          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="GitHub">
+          <a href="https://github.com/golukumar2156" aria-label="GitHub" target="_blank">
             <FaGithub className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="LinkedIn" target="_blank">
             <CiLinkedin className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="golusiddharthgs@gmail.com" aria-label="Email">
-            <MdOutlineMailOutline className="hover:text-green-600 transition duration-300" />
+          <a href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0" aria-label="twitter" target="_blank">
+            <FaSquareXTwitter className="hover:text-green-600 transition duration-300" />
           </a>
         </div>
       </div>
