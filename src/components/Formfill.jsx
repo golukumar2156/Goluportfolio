@@ -123,7 +123,7 @@ function Formfill() {
                   </span>
                   <div>
                     <div className="font-semibold text-black">Email</div>
-                    <div className="text-black">developer@example.com</div>
+                    <div className="text-black">golusiddharthgs@gmail.com</div>
                     <div className="text-black text-sm">Best for detailed project discussions</div>
                   </div>
                 </li>
@@ -134,7 +134,7 @@ function Formfill() {
                   </span>
                   <div>
                     <div className="font-semibold text-black">WhatApp</div>
-                    <div className="text-black">India</div>
+                    <div className="text-black">8434432268</div>
                   </div>
                 </li>
                  {/* Example item */}
