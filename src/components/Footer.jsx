@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       {/* Footer card */}
-      <div className="mx-6 md:mx-6 lg:mx-10 xl:mx-20 bg-gradient-to-r from-[#33565c] to-[#279e94] rounded-xl p-6 shadow-lg text-center">
+      <div className="mx-4 md:mx-6 lg:mx-10 xl:mx-20 bg-gradient-to-r from-[#33565c] to-[#279e94] rounded-xl p-6 shadow-lg text-center">
         <h1 className="text-[25px] md:text-[30px] lg:text-[35px] font-[800] text-gray-300">
           Ready to Start a Project?
         </h1>
