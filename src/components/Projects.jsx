@@ -7,7 +7,7 @@ import imgpathese from "../images/garb.png";
 function Projects() {
   return (
     <div className="md:pt-50 pt-40 px-4 pb-10">
-      <h1 className="text-center text-[#d4ae32] text-6xl font-extrabold mb-4">
+      <h1 className="text-center text-[#d4ae32] lg:text-6xl text-2xl font-extrabold mb-4">
         My Projects
       </h1>
       <div className="text-center lg:text-xl md:text-xl  pt-2 ">
