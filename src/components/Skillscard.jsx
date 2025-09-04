@@ -39,72 +39,75 @@ function SkillsCard() {
           </ul>
         </div>
 
-   <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 hover:border-green-400 shadow-blue-400/50">
-  <h4 className="text-2xl font-semibold text-black mb-4">
-    Backend  Development
-  </h4>
-  <ul className="flex flex-col gap-4">
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Java</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Spring Boot</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">REST APIs</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">MySQL / SQL</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-     <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Spring Data JPA</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Maven </strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-  </ul>
-</div>
+        <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 hover:border-green-400 shadow-blue-400/50">
+          <h4 className="text-2xl font-semibold text-black mb-4">
+            Backend Development
+          </h4>
+          <ul className="flex flex-col gap-4">
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Java</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Spring Boot</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">REST APIs</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">MySQL / SQL</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Spring Data JPA</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Maven </strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+          </ul>
+        </div>
 
-
-       <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 hover:border-green-400 shadow-blue-400/50">
-  <h4 className="text-2xl font-semibold text-black mb-4">
-    Core CS Concepts
-  </h4>
-  <ul className="flex flex-col gap-4">
-      <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">C and C++ </strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Operating System (OS)</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Database Management System (DBMS)</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Computer Networks (CN)</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Data Structures & Algorithms (DSA)</strong>
-      <small className="text-black">intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Object Oriented Programming (OOP)</strong>
-      <small className="text-black">intermediate</small>
-    </li>
-    
-  </ul>
-</div>
-
+        <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 hover:border-green-400 shadow-blue-400/50">
+          <h4 className="text-2xl font-semibold text-black mb-4">
+            Core CS Concepts
+          </h4>
+          <ul className="flex flex-col gap-4">
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">C and C++ </strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Operating System (OS)</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">
+                Database Management System (DBMS)
+              </strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">Computer Networks (CN)</strong>
+              <small className="text-black">Intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">
+                Data Structures & Algorithms (DSA)
+              </strong>
+              <small className="text-black">intermediate</small>
+            </li>
+            <li className="rounded-lg p-4 shadow-md flex flex-col">
+              <strong className="text-black">
+                Object Oriented Programming (OOP)
+              </strong>
+              <small className="text-black">intermediate</small>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

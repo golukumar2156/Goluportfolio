@@ -51,7 +51,10 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              <a href="https://newcity-git-main-golusiddharth88-2687s-projects.vercel.app/" target="_blank">
+              <a
+                href="https://newcity-git-main-golusiddharth88-2687s-projects.vercel.app/"
+                target="_blank"
+              >
                 view
               </a>
             </button>
