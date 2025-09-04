@@ -12,8 +12,8 @@ function Formfill() {
 
   return (
     <div>
-      <section className="pt-50 px-5 xl:ml-4 sm:px-6 lg:px-10 pb-10">
-        <h1 className="text-center text-5xl font-bold text-[#dea725]">
+      <section className="pt-40 px-5 xl:ml-4 sm:px-6 lg:px-10 pb-10">
+        <h1 className="text-center md:text-5xl text-2xl font-bold text-[#dea725]">
           Let's Connect
         </h1>
         <div className="text-center md:text-xl pt-5 text-[#989c81]">
