@@ -7,7 +7,9 @@ function SkillsCard() {
         Technical Skills
       </h1>
       <div className="md:flex md:gap-[10px] lg:gap-[30px] xl:gap-[15px] xl:px-[10px] py-3 px-3 ">
-        <div className="mt-[30px]  bg-gradient-to-r from-[#46818b] to-[#0F766E]  rounded-xl shadow-lg p-6 xl:w-[400px]  transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 focus:scale-104 active:scale-104 hover:border-green-400  shadow-blue-400/50  xl:ml-[27px] ">
+        <div className="mt-[30px]  bg-gradient-to-r from-[#46818b] to-[#0F766E]  rounded-xl shadow-lg p-6 xl:w-[400px]  
+transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105          hover:border-green-400  shadow-blue-400/50  xl:ml-[27px] ">
           <h4 className="text-2xl font-semibold text-black mb-4">
             Forntend Development
           </h4>
@@ -39,39 +41,47 @@ function SkillsCard() {
           </ul>
         </div>
 
-        <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 focus:scale-104 active:scale-104 hover:border-green-400 shadow-blue-400/50">
-          <h4 className="text-2xl font-semibold text-black mb-4">
-            Backend Development
-          </h4>
-          <ul className="flex flex-col gap-4">
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Java</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Spring Boot</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">REST APIs</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">MySQL / SQL</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Spring Data JPA</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Maven </strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-          </ul>
-        </div>
+       <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white 
+  rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] 
+  transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105 
+  hover:border-green-400 shadow-blue-400/50"
+>
+  <h4 className="text-2xl font-semibold text-black mb-4">
+    Backend Development
+  </h4>
+  <ul className="flex flex-col gap-4">
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">Java</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">Spring Boot</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">REST APIs</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">MySQL / SQL</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">Spring Data JPA</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+    <li className="rounded-lg p-4 shadow-md flex flex-col">
+      <strong className="text-black">Maven</strong>
+      <small className="text-black">Intermediate</small>
+    </li>
+  </ul>
+</div>
 
-        <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] transition delay-20 duration-420 ease-in-out hover:-translate-y-1.5 hover:scale-104 focus:scale-104 active:scale-104 hover:border-green-400 shadow-blue-400/50">
+
+        <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] mb-6 sm:mb-0
+transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105           hover:border-green-400 shadow-blue-400/50">
           <h4 className="text-2xl font-semibold text-black mb-4">
             Core CS Concepts
           </h4>
