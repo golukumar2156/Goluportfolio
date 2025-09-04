@@ -97,7 +97,12 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              View
+              <a
+                href="https://golukumar2156.github.io/tic_game/"
+                target="_blank"
+              >
+                view
+              </a>
             </button>
           </div>
         </div>
