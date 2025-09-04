@@ -22,7 +22,8 @@ function Projects() {
       {/* Responsive   */}
       <div className="grid grid-cols-1 px-3 xl:pl-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-20">
         {/* first card */}
-        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
             <img
               src={imgpathese}
@@ -62,7 +63,8 @@ function Projects() {
         </div>
 
         {/* first card */}
-        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105 rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
             <img
               src={imgpath}
@@ -108,7 +110,8 @@ function Projects() {
         </div>
 
         {/* first card */}
-        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
             <img
               src={imgpathe}
@@ -154,7 +157,8 @@ function Projects() {
         </div>
 
         {/* first card */}
-        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105 rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
             <img
               src={imgpathes}
@@ -200,7 +204,8 @@ function Projects() {
         </div>
 
         {/* first card */}
-        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] hover:scale-95 duration-1000 rounded-lg shadow-md overflow-hidden h-fit">
+        <div className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit">
           <div className="relative">
             <img
               src={imgpathess}
