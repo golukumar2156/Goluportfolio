@@ -20,7 +20,8 @@ function Achievements() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4">
           {/* Hackathon Achievement */}
-          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition duration-300  hover:scale-105">
+          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className=" p-2 mb-4">
               <span className="text-indigo-800 text-3xl">🚀</span>
             </div>
@@ -34,7 +35,8 @@ function Achievements() {
           </div>
 
           {/* Award Achievement */}
-          <div className="bg-gradient-to-r from-[#617597] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 hover:scale-105">
+          <div className="bg-gradient-to-r from-[#617597] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className=" p-2  mb-4">
               <span className="text-yellow-800 text-3xl">🏆</span>
             </div>
@@ -50,7 +52,8 @@ function Achievements() {
           </div>
 
           {/* Card 1 - C++ */}
-          <div className="bg-gradient-to-r from-[#5c6d89] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300 hover:scale-105">
+          <div className="bg-gradient-to-r from-[#5c6d89] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className=" p-2  mb-4">
               <span className="text-green-600 text-3xl">⚡</span>
             </div>
@@ -62,7 +65,8 @@ function Achievements() {
           </div>
 
           {/* Card 2 - C */}
-          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300 hover:scale-105">
+          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className=" w-8 h-8 mb-4 flex items-center justify-center rounded-2xl">
               <img
                 src={img}
@@ -80,7 +84,8 @@ function Achievements() {
           </div>
 
           {/* Card 3 - OOP */}
-          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300 hover:scale-105">
+          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className="gap-2 w-8 h-8 mb-4 flex items-center justify-center rounded-2xl">
               <img
                 src={img}
@@ -104,7 +109,8 @@ function Achievements() {
           </div>
 
           {/* Card 4 - Programming Language */}
-          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300 hover:scale-105">
+          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <div className=" w-10 h-10 mb-3 flex items-center justify-center rounded-2xl">
               <img
                 src={ja}
@@ -122,7 +128,8 @@ function Achievements() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition duration-300  hover:scale-105">
+          <div className="bg-gradient-to-r from-[#4c5e7b] to-[#0F766E] rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-110 active:scale-110 ">
             <h3 className="font-semibold text-[#bf7f36] text-lg mb-2">
               Certification in SpringBoot
             </h3>
