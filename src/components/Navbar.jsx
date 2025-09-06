@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-import { FaRegClosedCaptioning, FaHome } from "react-icons/fa";
+import { RxCross2 } from "react-icons/rx";
 function Navbar() {
 
   const [toggle, setToggle] = useState(false);
   const menu1 = [["flex", "items-center", "gap-1","text-[16px]"], ["text-black"]];
   const menu2 = [["flex", "items-center","p-[17px]", "gap-1"], ["text-black"]];
-
   return (
     <div className="fixed top-0 left-0 w-full z-50">
 
@@ -65,8 +64,8 @@ function Navbar() {
 
         <div className="md:hidden">
           {toggle ? (
-            <FaRegClosedCaptioning
-              className="cursor-pointer"
+            <RxCross2 
+              className="cursor-pointer "
               onClick={() => setToggle(!toggle)}
             />
           ) : (
