@@ -9,7 +9,6 @@ function Navbar() {
   const menu2 = [["flex", "items-center","p-[17px]", "gap-1"], ["text-black"]];
   return (
     <div className="fixed top-0 left-0 w-full z-50">
-
       {/* START :this navbar for Desktop and laptop */}
       <div className=" flex bg-gradient-to-r from-[#1E293B] to-[#0F766E]  justify-between items-center font-bold xl:px-2 xl:py-3 px-4 py-5 pl-[20px] pr-[30px]">
         <div className="xl:pl-[40px] xl:text-2xl text-green-400">Hey Everyone's</div>
