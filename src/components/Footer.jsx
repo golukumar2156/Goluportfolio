@@ -23,7 +23,7 @@ function Footer() {
               location.pathname==="/contact"?null:
                <NavLink
               to="/contact"
-              className="bg-gray-300 px-4 py-1 text-[10px] sm:text-[15px] rounded flex items-center gap-2 hover:bg-gray-400 transition"
+              className="sm:bg-gray-300 bg-[#359ba2] px-4 py-1 text-[10px] sm:text-[15px] rounded flex items-center gap-2 hover:bg-gray-400 transition"
             >
               Get In Touch <FaLocationArrow />
             </NavLink>
@@ -34,7 +34,7 @@ function Footer() {
               location.pathname==="/project"?null:
               <NavLink
               to="/project"
-              className="bg-gray-300 px-4 py-2  text-[10px] sm:text-[15px] rounded hover:bg-gray-400 transition"
+              className="sm:bg-gray-300 bg-[#359ba2] px-4 py-2  text-[10px] sm:text-[15px] rounded hover:bg-gray-400 transition"
             >
               View My Project
             </NavLink>
