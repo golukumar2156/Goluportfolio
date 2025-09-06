@@ -39,7 +39,7 @@ function Navbar() {
      {/* END: */}
 
         {/*START: Mobile rersponsive menu */}
-        <ul className={`md:hidden duration-700 bg-gradient-to-r from-[#295e65] to-[#0F766E] p-[15px] fixed right-0 w-[37%] h-[17%] rounded-2xl text-yellow-400 top-[60px]  ${toggle ? "right-[0]" : "right-[-100%]" }`}>
+        <ul className={`md:hidden duration-700 bg-gradient-to-r from-[#295e65] to-[#0F766E] p-[15px] fixed right-0 w-[37%] h-[20%] rounded-2xl text-yellow-400 top-[60px]  ${toggle ? "right-[0]" : "right-[-100%]" }`}>
               <li>
            <NavLink to="/"  className={({ isActive }) =>
           isActive ? "bg-blue-500 font-bold px-[10px] py-[2px] rounded-lg duration-700" : "text-black"
