@@ -7,28 +7,28 @@ import { CiLinkedin } from "react-icons/ci";
 import { useLocation } from "react-router-dom";
 import { FaSquareXTwitter } from "react-icons/fa6";
 function Introduction() {
-  const location=useLocation();
-  if(location.pathname === "/") return null;
+  const location = useLocation();
+  if (location.pathname === "/") return null;
   return (
     <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-16 lg:px-0 xl:px-32 py-30 ">
       {/* Profile Image */}
- <div className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
+      <div
+        className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
                 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 md:mr-45 xl:mr-45 lg:mr-0
                 transition-transform duration-300 ease-in-out
                 hover:scale-105 hover:shadow-2xl
                 focus:scale-105 focus:shadow-2xl
                 active:scale-105 active:shadow-2xl
-                cursor-pointer">
-  <img
-    src={imagePath}
-    alt="Golu Kumar"
-    className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
-  />
-</div>
-
-
-
-
+                cursor-pointer"
+      >
+        <img
+          src={imagePath}
+          alt="Golu Kumar"
+          className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:shadow-2xl
+           focus:scale-105 focus:shadow-2xl
+                active:scale-105 active:shadow-2xl"
+        />
+      </div>
 
       {/* Text Content */}
       <div className="max-w-2xl text-center md:text-left">
@@ -37,24 +37,26 @@ function Introduction() {
         </h1>
         <p className="text-black leading-relaxed mb-4">
           Hi, I'm <span className="font-semibold">Golukumar</span>, an{" "}
-          <span className="text-green-600">aspiring Java Full Stack Developer</span>{" "}
+          <span className="text-green-600">
+            aspiring Java Full Stack Developer
+          </span>{" "}
           passionate about building complete web applications. I work with{" "}
-          <strong>Java, Spring Boot, MySQL, and React.js</strong>, along with frontend
-          technologies like HTML, CSS, and JavaScript, to create scalable and
-          user-friendly solutions.
+          <strong>Java, Spring Boot, MySQL, and React.js</strong>, along with
+          frontend technologies like HTML, CSS, and JavaScript, to create
+          scalable and user-friendly solutions.
         </p>
         <p className="text-black leading-relaxed mb-4">
-          My journey began with learning <strong>C, C++, Java, and SQL</strong>, which
-          provided me with a strong foundation in programming and problem-solving. I
-          then expanded into <strong>Spring Boot</strong> for backend development and{" "}
-          <strong>React.js</strong> for frontend, combining both to build dynamic
-          full-stack projects.
+          My journey began with learning <strong>C, C++, Java, and SQL</strong>,
+          which provided me with a strong foundation in programming and
+          problem-solving. I then expanded into <strong>Spring Boot</strong> for
+          backend development and <strong>React.js</strong> for frontend,
+          combining both to build dynamic full-stack projects.
         </p>
         <p className="text-black leading-relaxed mb-6">
           I’m continuously learning and exploring new technologies to grow as a
-          developer. My goal is to become a skilled Java Full Stack Developer capable
-          of designing, developing, and deploying efficient web applications that
-          solve real-world problems.
+          developer. My goal is to become a skilled Java Full Stack Developer
+          capable of designing, developing, and deploying efficient web
+          applications that solve real-world problems.
         </p>
 
         {/* Resume Button */}
@@ -69,13 +71,25 @@ function Introduction() {
 
         {/* Social Links */}
         <div className="flex justify-center md:justify-start space-x-12 text-4xl text-white">
-          <a href="https://github.com/golukumar2156" aria-label="GitHub" target="_blank">
+          <a
+            href="https://github.com/golukumar2156"
+            aria-label="GitHub"
+            target="_blank"
+          >
             <FaGithub className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="LinkedIn" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/golukumar2555/"
+            aria-label="LinkedIn"
+            target="_blank"
+          >
             <CiLinkedin className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0" aria-label="twitter" target="_blank">
+          <a
+            href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0"
+            aria-label="twitter"
+            target="_blank"
+          >
             <FaSquareXTwitter className="hover:text-green-600 transition duration-300" />
           </a>
         </div>

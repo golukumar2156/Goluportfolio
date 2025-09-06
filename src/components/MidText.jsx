@@ -9,19 +9,22 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 function MidText() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-2  pt-45 md:ml-10">
-
-           {/* Profile Image */}
-       <div className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
+      {/* Profile Image */}
+      <div
+        className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
                 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 md:mr-45 xl:mr-45 lg:mr-0
                 transition-transform duration-300 ease-in-out
                 hover:scale-105 hover:shadow-2xl
                 focus:scale-105 focus:shadow-2xl
                 active:scale-105 active:shadow-2xl
-                cursor-pointer">
+                cursor-pointer"
+      >
         <img
           src={imagePath}
           alt="Golu Kumar"
-          className="w-full h-full object-cover transition-transform duration-400 ease-in-out hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-400 ease-in-out hover:scale-105 hover:shadow-2xl
+           focus:scale-105 focus:shadow-2xl
+                active:scale-105 active:shadow-2xl"
         />
       </div>
 
@@ -32,7 +35,8 @@ function MidText() {
           <span className="text-red-500 drop-shadow-md">Golu Kumar</span>
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl  text-gray-200 mb-8">
-          A passionate <span className="font-semibold">Java Full Stack Developer</span>
+          A passionate{" "}
+          <span className="font-semibold">Java Full Stack Developer</span>
         </p>
 
         {/* Resume Button */}
@@ -47,18 +51,29 @@ function MidText() {
 
         {/* Social Icons */}
         <div className="flex justify-center xl:ml-25 md:justify-start space-x-8 text-4xl  text-gray-200">
-          <a href="https://github.com/golukumar2156" aria-label="GitHub" target="_blank">
+          <a
+            href="https://github.com/golukumar2156"
+            aria-label="GitHub"
+            target="_blank"
+          >
             <FaGithub className="hover:text-green-600 transition duration-300" />
           </a>
-          <a href="https://www.linkedin.com/in/golukumar2555/" aria-label="LinkedIn" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/golukumar2555/"
+            aria-label="LinkedIn"
+            target="_blank"
+          >
             <CiLinkedin className="hover:text-green-600 transition duration-300" />
           </a>
-            <a href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0" aria-label="twitter" target="_blank">
-                    <FaSquareXTwitter className="hover:text-green-600 transition duration-300" />
-                  </a>
+          <a
+            href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0"
+            aria-label="twitter"
+            target="_blank"
+          >
+            <FaSquareXTwitter className="hover:text-green-600 transition duration-300" />
+          </a>
         </div>
       </div>
-   
     </section>
   );
 }
