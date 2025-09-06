@@ -164,7 +164,7 @@ function Formfill() {
               <ul className="space-y-6">
                 {/* Example item */}
                 <li className="flex items-start space-x-4">
-                  <span className="p-2 text-3xl text-blue-600 rounded-lg flex items-center">
+                  <span className="p-2 text-2xl text-blue-600 rounded-lg flex items-center">
                     <MdOutlineEmail />
                   </span>
                   <div>
@@ -177,7 +177,7 @@ function Formfill() {
                 </li>
                 {/* Example item */}
                 <li className="flex items-start space-x-4">
-                  <span className="p-2 text-3xl text-blue-600 rounded-lg flex items-center">
+                  <span className="p-2 text-2xl text-blue-600 rounded-lg flex items-center">
                     <FaWhatsapp />
                   </span>
                   <div>
