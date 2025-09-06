@@ -81,7 +81,7 @@ transition-transform duration-400 ease-in-out
 
         <div className="mt-[30px] bg-gradient-to-r from-[#46818b] to-[#0F766E] text-white rounded-xl shadow-lg p-6 xl:w-[400px] xl:ml-[100px] mb-6 sm:mb-0
 transition-transform duration-400 ease-in-out 
-  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105           hover:border-green-400 shadow-blue-400/50">
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105 hover:border-green-400 shadow-blue-400/50">
           <h4 className="text-2xl font-semibold text-black mb-4">
             Core CS Concepts
           </h4>

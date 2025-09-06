@@ -15,7 +15,8 @@ function MidText() {
         <img
           src={imagePath}
           alt="Golu Kumar"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-120 active:scale-105"
         />
       </div>
 
