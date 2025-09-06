@@ -62,10 +62,10 @@ function Navbar() {
         </ul>
         {/* END: */}
 
-        <div className="md:hidden">
+        <div className="md:hidden text-2xl">
           {toggle ? (
             <RxCross2 
-              className="cursor-pointer "
+              className="cursor-pointer"
               onClick={() => setToggle(!toggle)}
             />
           ) : (
