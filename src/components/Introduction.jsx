@@ -12,13 +12,23 @@ function Introduction() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-16 lg:px-0 xl:px-32 py-30 ">
       {/* Profile Image */}
-      <div className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 md:mr-45 xl:mr-45 lg:mr-0">
-        <img
-          src={imagePath}
-          alt="Golu Kumar"
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-        />
-      </div>
+ <div className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
+                rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 md:mr-45 xl:mr-45 lg:mr-0
+                transition-transform duration-300 ease-in-out
+                hover:scale-105 hover:shadow-2xl
+                focus:scale-105 focus:shadow-2xl
+                active:scale-105 active:shadow-2xl
+                cursor-pointer">
+  <img
+    src={imagePath}
+    alt="Golu Kumar"
+    className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+  />
+</div>
+
+
+
+
 
       {/* Text Content */}
       <div className="max-w-2xl text-center md:text-left">

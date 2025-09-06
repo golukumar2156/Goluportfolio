@@ -11,12 +11,17 @@ function MidText() {
     <section className="flex flex-col md:flex-row items-center justify-center px-6 md:px-2  pt-45 md:ml-10">
 
            {/* Profile Image */}
-      <div className="w-60 h-60 md:w-72 md:h-72 lg:w-100 lg:h-100 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 xl:mr-50  md:mr-10  ">
+       <div className="w-70 h-70 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-98 xl:h-98
+                rounded-full overflow-hidden shadow-lg mb-8 md:mb-0 md:mr-45 xl:mr-45 lg:mr-0
+                transition-transform duration-300 ease-in-out
+                hover:scale-105 hover:shadow-2xl
+                focus:scale-105 focus:shadow-2xl
+                active:scale-105 active:shadow-2xl
+                cursor-pointer">
         <img
           src={imagePath}
           alt="Golu Kumar"
-          className="w-full h-full object-cover transition-transform duration-400 ease-in-out 
-  hover:-translate-y-1.5 hover:scale-105 focus:scale-120 active:scale-105"
+          className="w-full h-full object-cover transition-transform duration-400 ease-in-out hover:scale-105"
         />
       </div>
 
