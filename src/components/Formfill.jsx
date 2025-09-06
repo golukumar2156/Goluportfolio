@@ -16,21 +16,21 @@ function Formfill() {
         <h1 className="text-center md:text-5xl text-2xl font-bold text-[#dea725]">
           Let's Connect
         </h1>
-        <div className="text-center md:text-xl pt-5 text-[#989c81]">
+        <div className="text-center md:text-xl pt-5 text-[#37e4ad]">
           Looking for a dedicated Spring Boot developer ? I’d love to hear about
           your project and discuss{" "}
         </div>
-        <div className="text-center md:text-xl pb-14 text-[#989c81]">
+        <div className="text-center md:text-xl pb-14 text-[#37e4ad]">
           how we can build something great together.
         </div>
         <div className="flex flex-col lg:flex-row lg:space-x-12 space-y-10 lg:space-y-0">
           {/* Form Card */}
           <div className="flex-1 flex items-center justify-center">
             <div className="bg-gradient-to-r from-[#498284] to-[#0F766E]   rounded-xl shadow-md w-full max-w-3xl p-6 sm:p-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-2 text-bold text-center">
+              <h2 className="text-2xl font-bold text-[#f3d026] mb-2 text-bold text-center">
                 Send Me a Message
               </h2>
-              <h2 className="text-black  mb-6 text-center">
+              <h2 className="text-[#cee4ffdd] mb-6 text-center">
                 Tell me about your project and I'll get back to you as soon as
                 possible.
               </h2>
@@ -155,10 +155,10 @@ function Formfill() {
           <div className="flex-1 flex flex-col space-y-5">
             {/* Contact Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65] rounded-xl shadow-md p-6 sm:p-8">
-              <h2 className="text-2xl font-semibold text-black mb-2 text-center">
+              <h2 className="text-2xl font-bold text-[#f3d026] mb-2 text-center">
                 Get In Touch
               </h2>
-              <p className="text-black mb-6 text-center">
+              <p className="text-[#cee4ffdd] mb-6 text-center">
                 Multiple ways to reach me. Choose what works best for you.
               </p>
               <ul className="space-y-6">
@@ -169,8 +169,8 @@ function Formfill() {
                   </span>
                   <div>
                     <div className="font-semibold text-black">Email</div>
-                    <div className="text-black">golusiddharthgs@gmail.com</div>
-                    <div className="text-black text-sm">
+                    <div className="text-[#cee4ffdd]">golusiddharthgs@gmail.com</div>
+                    <div className="text-[#cee4ffdd] text-sm">
                       Best for detailed project discussions
                     </div>
                   </div>
@@ -182,7 +182,7 @@ function Formfill() {
                   </span>
                   <div>
                     <div className="font-semibold text-black">WhatApp</div>
-                    <div className="text-black">8434432268</div>
+                    <div className="text-[#cee4ffdd]">8434432268</div>
                   </div>
                 </li>
                 {/* Example item */}
@@ -192,8 +192,8 @@ function Formfill() {
                   </span>
                   <div>
                     <div className="font-semibold text-black">Location</div>
-                    <div className="text-black">India</div>
-                    <div className="text-black text-sm">
+                    <div className="text-[#cee4ffdd]">India</div>
+                    <div className="text-[#cee4ffdd] text-sm">
                       Best for detailed project discussions
                     </div>
                   </div>
@@ -204,13 +204,13 @@ function Formfill() {
 
             {/* Social Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65]  shadow-md rounded-xl p-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-              <h2 className="text-lg font-bold text-[#c1f337]">
+              <h2 className="text-lg font-bold text-[#f3d026]">
                 Connect on Social Media
               </h2>
               <div className="flex space-x-4  text-black">
                 <a
                   href="https://github.com/golukumar2156"
-                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-600 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3] sm:px-2 rounded-lg hover:text-blue-600 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   {" "}
@@ -219,7 +219,7 @@ function Formfill() {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/golukumar2555/"
-                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3]  sm:px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   <CiLinkedin />
@@ -227,7 +227,7 @@ function Formfill() {
                 </a>
                 <a
                   href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0"
-                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3] sm:px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   <FaXTwitter /> twitter

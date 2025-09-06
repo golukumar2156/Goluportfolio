@@ -35,9 +35,9 @@ function Introduction() {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#bf7f36] mb-6">
           About Me
         </h1>
-        <p className="text-black leading-relaxed mb-4">
-          Hi, I'm <span className="font-semibold">Golukumar</span>, an{" "}
-          <span className="text-green-600">
+        <p className="text-[#cee4ffdd] leading-relaxed mb-4">
+          Hi, I'm <span className="font-bold">Golukumar</span>, an{" "}
+          <span className="text-[#37e4ad] font-semibold">
             aspiring Java Full Stack Developer
           </span>{" "}
           passionate about building complete web applications. I work with{" "}
@@ -45,14 +45,14 @@ function Introduction() {
           frontend technologies like HTML, CSS, and JavaScript, to create
           scalable and user-friendly solutions.
         </p>
-        <p className="text-black leading-relaxed mb-4">
+        <p className="text-[#cee4ffdd] leading-relaxed mb-4">
           My journey began with learning <strong>C, C++, Java, and SQL</strong>,
           which provided me with a strong foundation in programming and
           problem-solving. I then expanded into <strong>Spring Boot</strong> for
           backend development and <strong>React.js</strong> for frontend,
           combining both to build dynamic full-stack projects.
         </p>
-        <p className="text-black leading-relaxed mb-6">
+        <p className="text-[#cee4ffdd] leading-relaxed mb-6">
           I’m continuously learning and exploring new technologies to grow as a
           developer. My goal is to become a skilled Java Full Stack Developer
           capable of designing, developing, and deploying efficient web
