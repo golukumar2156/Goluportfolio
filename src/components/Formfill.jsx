@@ -204,13 +204,13 @@ function Formfill() {
 
             {/* Social Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65]  shadow-md rounded-xl p-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-              <h2 className="text-lg font-semibold text-black">
+              <h2 className="text-lg font-bold text-[#c1f337]">
                 Connect on Social Media
               </h2>
-              <div className="flex space-x-6 text-black">
+              <div className="flex space-x-4  text-black">
                 <a
                   href="https://github.com/golukumar2156"
-                  className="flex items-center hover:text-blue-600 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-600 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   {" "}
@@ -219,7 +219,7 @@ function Formfill() {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/golukumar2555/"
-                  className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   <CiLinkedin />
@@ -227,7 +227,7 @@ function Formfill() {
                 </a>
                 <a
                   href="https://x.com/Gol9uKumar2155?t=C10xmq0VcrkbkYumQLWU8A&s=0"
-                  className="flex items-center hover:text-blue-700 transition-colors text-black gap-2"
+                  className="flex items-center bg-[#b1f3f3] px-2 rounded-lg hover:text-blue-700 transition-colors text-black gap-2"
                   target="_blank"
                 >
                   <FaXTwitter /> twitter
@@ -237,33 +237,33 @@ function Formfill() {
 
             {/* FAQ Card */}
             <div className="bg-gradient-to-r from-[#4c9696] to-[#0a6d65]  shadow-lg rounded-xl p-6 space-y-6">
-              <h2 className="text-lg font-semibold text-black text-center">
+              <h2 className="text-lg font-bold text-[#f3cd37] text-center">
                 Frequently Asked Questions
               </h2>
               <div>
-                <h3 className="font-medium text-black">
+                <h3 className="font-semibold text-[#7ef8a1]">
                   What technologies do you work with?
                 </h3>
-                <p className="text-black mt-1">
+                <p className="text-[#cee4ffdd] mt-1">
                   I specialize in Java, Spring Boot, MySQL, and React.js. I'm
                   also familiar with REST APIs, and modern development
                   practices.
                 </p>
               </div>
               <div>
-                <h3 className="font-medium text-black">
+                <h3 className="font-semibold text-[#7ef8a1]">
                   Are you available for freelance work?
                 </h3>
-                <p className="text-black mt-1">
+                <p className="text-[#cee4ffdd] mt-1">
                   Yes! I'm open to freelance projects, part-time opportunities,
                   and full-time positions.
                 </p>
               </div>
               <div>
-                <h3 className="font-medium text-black">
+                <h3 className="font-semibold text-[#7ef8a1]">
                   Do you provide ongoing support?
                 </h3>
-                <p className="text-black mt-1">
+                <p className="text-[#cee4ffdd] mt-1">
                   I offer post-development support, bug fixes, and feature
                   enhancements.
                 </p>
