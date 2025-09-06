@@ -9,9 +9,7 @@ function About() {
     if(location.pathname === "/" || location.pathname ==="/contact") return null;
   return (
     <div>
-        <Navbar/>
         <Achievements/>
-        <Footer/>
     </div>
   )
 }

@@ -1,21 +1,19 @@
-
-import Navbar from './Navbar'
-import MidText from './MidText'
-import Footer from './Footer'
-import { useLocation } from 'react-router-dom'
+import MidText from './MidText';
 import SkillsCard from './Skillscard';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
-    const location =useLocation();
-    if(location.pathname ==="/about" ||  location.pathname === "/contact" ) return null;
-  return (
-    <div>
-        <Navbar/>
-        <MidText/>
-        <SkillsCard/>
-        <Footer/>
-    </div>
-  )
+    const location = useLocation();
+
+    // सिर्फ home page पर content दिखे
+    if (location.pathname !== "/") return null;
+
+    return (
+        <div>
+            <MidText />
+            <SkillsCard />
+        </div>
+    );
 }
 
-export default Home
+export default Home;

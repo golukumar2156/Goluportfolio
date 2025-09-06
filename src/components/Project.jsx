@@ -9,9 +9,7 @@ function Project() {
   if(location.pathname==="/about" || location.pathname==="/contact") return null;
   return (
     <div >
-      <Navbar/>
       <Projects/>
-      <Footer/>
     </div>
   )
 }

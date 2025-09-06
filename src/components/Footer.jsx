@@ -1,7 +1,9 @@
 import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 function Footer() {
+  const location=useLocation();
+
   return (
     <div>
       {/* Footer card */}
@@ -15,22 +17,28 @@ function Footer() {
           team!
         </p>
         <div className="flex justify-center gap-5 mt-6">
-          <div className="flex justify-center gap-5 mt-6">
+          <div className="flex justify-center gap-5 sm:mt-4">
             {/* Contact page link */}
-            <NavLink
+           {
+              location.pathname==="/contact"?null:
+               <NavLink
               to="/contact"
-              className="bg-gray-300 px-4 py-1 rounded flex items-center gap-2 hover:bg-gray-400 transition"
+              className="bg-gray-300 px-4 py-1 text-[12px] sm:text-[15px] rounded flex items-center gap-2 hover:bg-gray-400 transition"
             >
               Get In Touch <FaLocationArrow />
             </NavLink>
+           }
 
             {/* Project page link */}
-            <NavLink
+            {
+              location.pathname==="/project"?null:
+              <NavLink
               to="/project"
-              className="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400 transition"
+              className="bg-gray-300 px-4 py-2  text-[12px] sm:text-[15px] rounded hover:bg-gray-400 transition"
             >
               View My Project
             </NavLink>
+            }
           </div>
         </div>
       </div>
