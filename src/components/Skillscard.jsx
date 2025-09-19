@@ -31,11 +31,7 @@ transition-transform duration-400 ease-in-out
               <small className="text-black">Intermediate</small>
             </li>
             <li className="from-blue-900 rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Tailwind CSS</strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="from-blue-900 rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Bootstrap</strong>
+              <strong className="text-black">Tailwind / Bootstrap</strong>
               <small className="text-black">Intermediate</small>
             </li>
           </ul>
@@ -65,14 +61,10 @@ transition-transform duration-400 ease-in-out
     </li>
     <li className="rounded-lg p-4 shadow-md flex flex-col">
       <strong className="text-black">MySQL / SQL</strong>
-      <small className="text-black">Intermediate</small>
+      <small className="text-black">fresher</small>
     </li>
     <li className="rounded-lg p-4 shadow-md flex flex-col">
       <strong className="text-black">Spring Data JPA</strong>
-      <small className="text-black">Intermediate</small>
-    </li>
-    <li className="rounded-lg p-4 shadow-md flex flex-col">
-      <strong className="text-black">Maven</strong>
       <small className="text-black">Intermediate</small>
     </li>
   </ul>
@@ -98,10 +90,6 @@ transition-transform duration-400 ease-in-out
               <strong className="text-black">
                 Database Management System (DBMS)
               </strong>
-              <small className="text-black">Intermediate</small>
-            </li>
-            <li className="rounded-lg p-4 shadow-md flex flex-col">
-              <strong className="text-black">Computer Networks (CN)</strong>
               <small className="text-black">Intermediate</small>
             </li>
             <li className="rounded-lg p-4 shadow-md flex flex-col">
