@@ -61,7 +61,7 @@ transition-transform duration-400 ease-in-out
     </li>
     <li className="rounded-lg p-4 shadow-md flex flex-col">
       <strong className="text-black">MySQL / SQL</strong>
-      <small className="text-black">fresher</small>
+      <small className="text-black">Intermediate</small>
     </li>
     <li className="rounded-lg p-4 shadow-md flex flex-col">
       <strong className="text-black">Spring Data JPA</strong>
