@@ -51,9 +51,9 @@ function Projects() {
               OrderCapture
             </h3>
             <p className="text-gray-700 mb-4">
-              Developed a OrderCapture system to automate retail
-              operations, managing billing, inventory, and orders while
-              providing real-time sales insights for data-driven decisions.
+              Developed a OrderCapture system to automate retail operations,
+              managing billing, inventory, and orders while providing real-time
+              sales insights for data-driven decisions.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
@@ -85,10 +85,7 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              <a
-                href="https://gs-frontend-two.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://gs-frontend-two.vercel.app/" target="_blank">
                 view
               </a>
             </button>
