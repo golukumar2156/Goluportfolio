@@ -27,31 +27,31 @@ function Projects() {
           className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
   hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit"
         >
-         <div className="relative">
-  {/* Video always visible */}
-  <video
-    src={video}
-    controls
-    loop
-    muted
-    autoPlay
-    className="w-full h-50 object-cover rounded-t-lg"
-  ></video>
+          <div className="relative">
+            {/* Video always visible */}
+            <video
+              src={video}
+              controls
+              loop
+              muted
+              autoPlay
+              className="w-full h-50 object-cover rounded-t-lg"
+            ></video>
 
-  <span className="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded">
-    Featured
-  </span>
-</div>
+            <span className="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded">
+              Featured
+            </span>
+          </div>
 
           <div className="p-6">
             <p className="text-sm text-gray-500 uppercase mb-2">
               Java-FullStack
             </p>
             <h3 className="text-2xl font-semibold text-green-600 mb-2">
-              GS_orderCapture
+              OrderCapture
             </h3>
             <p className="text-gray-700 mb-4">
-              Developed a Point of Sale (POS) system to automate retail
+              Developed a OrderCapture system to automate retail
               operations, managing billing, inventory, and orders while
               providing real-time sales insights for data-driven decisions.
             </p>
@@ -86,7 +86,7 @@ function Projects() {
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
               <a
-                href="https://newcity-git-main-golusiddharth88-2687s-projects.vercel.app/"
+                href="https://gs-frontend-two.vercel.app/"
                 target="_blank"
               >
                 view
