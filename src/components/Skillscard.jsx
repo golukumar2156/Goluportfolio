@@ -6,13 +6,12 @@ function SkillsCard() {
       title: "Frontend Development",
       tools: [
         "HTML5",
-        "Tailwind CSS / Bootstrap",
+        "Tailwind CSS",
         "JavaScript",
         "React.js",
         "Redux/Context API",
         "Axios",        
-      ],
-      level: "Intermediate",
+      ]
     },
     {
       title: "Backend Development",
@@ -23,8 +22,7 @@ function SkillsCard() {
         "Spring Data JPA",
         "Lombok",
         "MySQL",
-      ],
-      level: "Intermediate",
+      ]
     },
     {
       title: "Core CS Concepts",
@@ -35,8 +33,7 @@ function SkillsCard() {
         "Data Structures & Algorithms",
         "Object Oriented Programming",
         "Software Engineering",
-      ],
-      level: "Intermediate",
+      ]
     },
   ];
   return (
