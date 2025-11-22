@@ -1,6 +1,5 @@
 import React from "react";
 import imagePath from "../images/prof.jpg";
-import resume from "../download/golu_Resume.pdf";
 import { IoIosCodeDownload } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
@@ -41,7 +40,7 @@ function MidText() {
 
         {/* Resume Button */}
         <a
-          href={resume}
+          href="#"
           download="golu_Resume.pdf"
           className="inline-flex xl:ml-20 items-center bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-3 rounded-lg shadow-md transition duration-300 mb-6"
         >
