@@ -1,6 +1,7 @@
 import React from "react";
 import imgpath from "../images/tiktak.jpg";
 import imgpathe from "../images/github.png";
+import imgf from "../images/fp.png";
 import imgpathes from "../images/currency.webp";
 import imgpathess from "../images/rock.jpeg";
 import imgpathese from "../images/garb.png";
@@ -91,8 +92,62 @@ function Projects() {
             </button>
           </div>
         </div>
+        {/* second card */}
+     <div
+          className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
+  hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit"
+        >
+          <div className="relative">
+            {/* Video always visible */}
+            <img
+              src={imgf}
+              alt="images_project"
+              className="w-full h-50 block object-cover hover:scale-95 duration-700"
+            />
 
-        {/* first card */}
+            <span className="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded">
+              Featured
+            </span>
+          </div>
+
+          <div className="p-6">
+            <p className="text-sm text-gray-500 uppercase mb-2">
+              Java-FullStack
+            </p>
+            <h3 className="text-2xl font-semibold text-green-600 mb-2">
+               Smart Student ID Manager
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Developed a  Smart Student ID Manager system for college  and school.It help us for find ID of student.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                Java
+              </span>
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                Spring Boot
+              </span>
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                React
+              </span>
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                Tailwind CSS
+              </span>
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                Redux
+              </span>
+              <span className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full">
+                Axios
+              </span>
+            </div>
+            <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
+              <a href="https://www.linkedin.com/posts/golukumar2555_springboot-java-fullstackabrdevelopment-activity-7395711534305517568-tVtu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPruOsB0fJBKu09NnABBfPNVZrtuTm372w" target="_blank">
+                view
+              </a>
+            </button>
+          </div>
+        </div>
+        {/* third card */}
         <div
           className="max-w-lg mx-auto bg-gradient-to-r from-[#a8d7c8] to-[#13b0a3] transition-transform duration-400 ease-in-out 
   hover:-translate-y-1.5 hover:scale-105 focus:scale-105 active:scale-105  rounded-lg shadow-md overflow-hidden h-fit"
