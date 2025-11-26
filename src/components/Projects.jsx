@@ -85,7 +85,7 @@ function Projects() {
               </span>
             </div>
             <button className="w-full bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium rounded px-4 py-2">
-              <a href="https://gs-frontend-two.vercel.app/" target="_blank">
+              <a href="https://youtu.be/vEQX3uvDTS4?si=B6gQwrkq8LQL-4NP" target="_blank">
                 view
               </a>
             </button>
