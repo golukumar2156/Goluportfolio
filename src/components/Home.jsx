@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 function Home() {
     const location = useLocation();
 
-    // सिर्फ home page पर content दिखे
+    
     if (location.pathname !== "/") return null;
 
     return (
