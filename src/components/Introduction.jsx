@@ -51,7 +51,7 @@ function Introduction() {
           responsive, and user-friendly interfaces.
         </p>
 
-        <p className="text-[#cee4ffdd] leading-relaxed">
+        <p className="text-[#cee4ffdd] leading-relaxed mb-4">
           I enjoy solving problems, optimizing performance, and continuously learning
           modern technologies. My goal is to grow as a backend-focused Java developer
           while delivering complete and reliable full-stack applications.
