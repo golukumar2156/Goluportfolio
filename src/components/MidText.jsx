@@ -35,7 +35,7 @@ function MidText() {
         </h1>         
          <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8">
           A passionate{" "}
-          <span className="font-semibold">Backend Developer specializing in Java-based backend systems</span>
+          <span className="font-semibold">Backend Developer specializing in Java & Spring Boot</span>
         </p>
 
         {/* Resume Button */}
