@@ -31,32 +31,32 @@ function Introduction() {
 
       {/* Text Content */}
       <div className="max-w-2xl text-center md:text-left">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#bf7f36] mb-6">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#bf7f36] mb-6">
           About Me
         </h1>
+
         <p className="text-[#cee4ffdd] leading-relaxed mb-4">
           Hi, I'm <span className="font-bold">Golukumar</span>, an{" "}
           <span className="text-[#37e4ad] font-semibold">
             aspiring Java Full Stack Developer
           </span>{" "}
-          passionate about building complete web applications. I work with{" "}
-          <strong>Java, Spring Boot, MySQL, and React.js</strong>, along with
-          frontend technologies like HTML, CSS, and JavaScript, to create
-          scalable and user-friendly solutions.
+          with a strong interest in backend development and building robust server-side
+          applications.
         </p>
+
         <p className="text-[#cee4ffdd] leading-relaxed mb-4">
-          My journey began with learning <strong>C, C++, Java, and SQL</strong>,
-          which provided me with a strong foundation in programming and
-          problem-solving. I then expanded into <strong>Spring Boot</strong> for
-          backend development and <strong>React.js</strong> for frontend,
-          combining both to build dynamic full-stack projects.
+          I primarily work with <strong>Java, Spring Boot, and MySQL</strong>, focusing
+          on APIs, database design, and efficient backend logic. On the frontend, I use{" "}
+          <strong>HTML, CSS, JavaScript, and React.js</strong> to build clean,
+          responsive, and user-friendly interfaces.
         </p>
-        <p className="text-[#cee4ffdd] leading-relaxed mb-6">
-          I’m continuously learning and exploring new technologies to grow as a
-          developer. My goal is to become a skilled Java Full Stack Developer
-          capable of designing, developing, and deploying efficient web
-          applications that solve real-world problems.
+
+        <p className="text-[#cee4ffdd] leading-relaxed">
+          I enjoy solving problems, optimizing performance, and continuously learning
+          modern technologies. My goal is to grow as a backend-focused Java developer
+          while delivering complete and reliable full-stack applications.
         </p>
+
 
         {/* Resume Button */}
         <a
