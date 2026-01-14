@@ -9,8 +9,7 @@ function SkillsCard() {
         "Tailwind CSS",
         "JavaScript",
         "React.js",
-        "Redux/Context API",
-        "Axios",        
+        "Redux/Context API"
       ]
     },
     {
@@ -18,7 +17,6 @@ function SkillsCard() {
       tools: [
         "Java",
         "SpringBoot",
-        "Spring Security",
         "Spring Data JPA",
         "Lombok",
         "MySQL",
@@ -31,8 +29,7 @@ function SkillsCard() {
         "Operating System",
         "Database Management System",
         "Data Structures & Algorithms",
-        "Object Oriented Programming",
-        "Software Engineering",
+        "Object Oriented Programming"
       ]
     },
   ];

@@ -32,10 +32,10 @@ function MidText() {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200 mb-4">
           Hi, I’m{" "}
           <span className="text-red-500 drop-shadow-md">Golu Kumar</span>
-        </h1>
-        <p className="text-xl md:text-2xl lg:text-3xl  text-gray-200 mb-8">
+        </h1>         
+         <p className="text-xl md:text-2xl lg:text-3xl text-gray-200 mb-8">
           A passionate{" "}
-          <span className="font-semibold">Java Full Stack Developer</span>
+          <span className="font-semibold">Backend Developer specializing in Java-based backend systems</span>
         </p>
 
         {/* Resume Button */}
