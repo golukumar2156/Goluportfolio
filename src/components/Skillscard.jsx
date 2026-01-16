@@ -7,6 +7,7 @@ function SkillsCard() {
       tools: [
         "Java",
         "SpringBoot",
+        "Spring Security" ,
         "Spring Data JPA",
         "Lombok",
         "MySQL",
