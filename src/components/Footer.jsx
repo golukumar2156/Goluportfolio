@@ -45,7 +45,10 @@ function Footer() {
 
       <div className="flex justify-center items-center md:gap-5 h-[50px] w-full bg-gray-700 mt-[60px] rounded-t-lg">
         <p className="text-[#c0e6ec] font-[500]">All rights reserved</p>
-        <p className="text-[#c0e6ec] font-[500]">© 2025 Golu Siddharth</p>
+       <p className="text-[#c0e6ec] font-[500]">
+  © {new Date().getFullYear()} Golu Siddharth
+</p>
+
       </div>
     </div>
   );
