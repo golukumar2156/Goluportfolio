@@ -2,17 +2,7 @@ import React from "react";
 
 function SkillsCard() {
   const skills = [
-    {
-      title: "Frontend Development",
-      tools: [
-        "HTML5",
-        "Tailwind CSS",
-        "JavaScript",
-        "React.js",
-        "Redux/Context API"
-      ]
-    },
-    {
+       {
       title: "Backend Development",
       tools: [
         "Java",
@@ -23,13 +13,23 @@ function SkillsCard() {
       ]
     },
     {
+      title: "Frontend Development",
+      tools: [
+        "HTML5",
+        "Tailwind CSS",
+        "JavaScript",
+        "React.js",
+        "Redux/Context API"
+      ]
+    }, 
+    {
       title: "Core CS Concepts",
       tools: [
-        "C and C++",
-        "Operating System",
-        "Database Management System",
+        "C and C++",        
         "Data Structures & Algorithms",
-        "Object Oriented Programming"
+        "Object Oriented Programming",
+        "Operating System",
+        "Database Management System"
       ]
     },
   ];
